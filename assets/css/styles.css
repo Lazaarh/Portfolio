@@ -211,13 +211,13 @@ body.dark-theme {
 }
 
 .profile__info {
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: flex;
   justify-content: center;
-  column-gap: 2.5rem;
 }
 
 .profile__info-group {
   text-align: center;
+  column-gap: 2.5rem;
 }
 
 .profile__info-number {
